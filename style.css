@@ -8,6 +8,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 80px;
+  float: left;
+}
+
 .navigation {
   background-color: aquamarine;
 }
@@ -17,4 +22,14 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0 8%;
+}
+
+.p2 {
+  display: flex;
+}
+
+.p2 .left,
+.p2 .right {
+  display: flex;
+  flex-direction: column;
 }
