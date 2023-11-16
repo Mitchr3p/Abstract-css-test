@@ -26,6 +26,7 @@ img {
   font-size: 24px;
   margin: 0 8%;
   padding: 15px 0;
+  position: relative;
 }
 
 .navbar .name {
@@ -55,6 +56,10 @@ img {
 .btn2:hover {
   color: black;
   background-color: white;
+}
+
+.navbar .dropdown-container {
+  display: none;
 }
 
 .p1 {

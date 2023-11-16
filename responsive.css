@@ -1,3 +1,9 @@
 @media screen and (max-width: 767px) {
-  
+  .navbar .dropdown-container {
+    display: flex;
+  }
+
+  .navbar .n2 {
+    display: none;
+  }
 }
