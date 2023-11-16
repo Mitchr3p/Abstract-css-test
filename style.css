@@ -2,34 +2,170 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  font-family: 'Overpass', sans-serif;}
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 img {
-  width: 80px;
+  width: 84px;
   float: left;
+  margin-bottom: 120px;
 }
 
 .navigation {
-  background-color: aquamarine;
+  background-color: black;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 24px;
   margin: 0 8%;
+  padding: 15px 0;
+}
+
+.navbar .name {
+  font-weight: bold;
+}
+
+.navbar .btn1 {
+  font-size: 24px;
+  color: white;
+  padding: 10px 15px;
+  background-color: rgb(26, 25, 25);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.navbar .btn2 {
+  font-size: 24px;
+  color: white;
+  padding: 10px 20px;
+  background-color: #4C5FD5;
+  border: 1px solid #4C5FD5;
+  border-radius: 5px;
+}
+
+.btn2:hover {
+  color: black;
+  background-color: white;
+}
+
+.p1 {
+  height: 60vh;
+  background-color: #DADBF1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Add relative positioning to the container */
+  margin-bottom: 20px; /* Adjust spacing between input and SVG */
+
+}
+
+.p1 h1 {
+  font-size: 80px;
+}
+
+.p1 input {
+  font-size: 20px;
+  padding: 15px;
+  width: 720px;
+  border: 1px solid #4C5FD5;
+  box-shadow: 2px 2px 5px #8d96cf;
+  position: relative;
+}
+
+.arrow-svg {
+  position: absolute;
+  top: 50%;
+  right: 330px;
+  transform: translateY(120%);
+  width: 30px;
+  height: 30px;
+}
+
+.p1 input:hover + .arrow-svg path {
+  fill: #4C5FD5; /* Change the color to your desired hover color */
 }
 
 .p2 {
   display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.p2 a {
+  color: #4C5FD5;
 }
 
 .p2 .left,
 .p2 .right {
   display: flex;
   flex-direction: column;
+}
+
+.left div {
+  width: 520px;
+  height: 240px;
+  font-size: 24px;
+}
+
+.right div {
+  width: 520px;
+  height: 240px;
+  font-size: 24px;
+}
+
+.p3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 60vh;
+}
+
+.p3 h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.p3 p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
+.btmleft {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 8%;
+  line-height: 1.2;
+  color: white;
+}
+
+.btmleft a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.btmright {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8%;
+  color: white;
+}
+
+.btmright a {
+  text-decoration: none;
+  color: white;
 }
