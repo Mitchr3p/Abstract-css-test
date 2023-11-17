@@ -32,7 +32,8 @@
     display: block;
   }
 
-  p1 h1 {
-    flex-shrink: 1;
+  .p2 {
+    display: flex;
+    flex-direction: column;
   }
 }

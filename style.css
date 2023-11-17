@@ -99,6 +99,10 @@ img {
   height: 30px;
 }
 
+.arrow-svg:hover {
+  fill: #4C5FD5;
+}
+
 .p1 input:hover + .arrow-svg path {
   fill: #4C5FD5; /* Change the color to your desired hover color */
 }
@@ -138,6 +142,7 @@ img {
   justify-content: space-between;
   background-color: black;
   height: 60vh;
+  padding-top: 40px;
 }
 
 .p3 h4 {
@@ -151,6 +156,9 @@ img {
   font-weight: bold;
 }
 
+.p3 a:hover {
+  text-decoration: underline;
+}
 
 .btmleft {
   display: flex;
@@ -165,6 +173,7 @@ img {
   display: block;
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .btmright {
