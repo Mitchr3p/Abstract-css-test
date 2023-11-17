@@ -10,6 +10,8 @@ a {
 }
 
 img {
+  display: flex;
+  flex-shrink: 1;
   width: 84px;
   float: left;
   margin-bottom: 120px;

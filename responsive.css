@@ -15,6 +15,7 @@
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin-left: -200px;
   }
 
   .dropdown-content a {
@@ -79,6 +80,13 @@
     flex-direction: column;
     height: 100%;
     padding-bottom: 30px;
+  }
+
+  .btmleft {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
   }
 
   .p3 .btmright {
