@@ -179,11 +179,7 @@ img {
 .btmright {
   display: flex;
   flex-direction: column;
+  padding-top: 200px;
   margin-right: 8%;
-  color: white;
-}
-
-.btmright a {
-  text-decoration: none;
   color: white;
 }

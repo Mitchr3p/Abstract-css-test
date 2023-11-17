@@ -32,8 +32,75 @@
     display: block;
   }
 
+  .p1 {
+    height: 40vh;
+    background-color: #DADBF1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .p1 h1 {
+    font-size: 40px;
+  }
+
+  .p1 input {
+    width: 350px;
+  }
+
+  .arrow-svg {
+    display: none;
+  }
+
   .p2 {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
+
+  }
+
+  .left div {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .right div {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .p3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+  .p3 .btmright {
+    margin-left: 57px;
+    padding-top: 40px;
+    line-height: 1.3;
+    text-align: right; /* Align content to the right */   
+  }
+
+  .p3 h4 {
+    font-size: 16px;
+  }
+
+  .p3 p {
+    font-size: 12px;
+  }
+
+  .btmleft a {
+    font-size: 12px;
+  }
+
+  .btmright {
+    padding-top: 10px;
   }
 }
